@@ -1,0 +1,583 @@
+/* General Font Style */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+
+/* Reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+:focus {
+    outline: 0;
+}
+
+ins {
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* --------------------------------------------------------- */
+
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/* unvisited link */
+
+a:visited {
+    color: #FFFFFF;
+}
+
+
+/* visited link */
+
+a:hover {
+    color: #FFFFFF;
+}
+
+
+/* mouse over link */
+
+a:active {
+    color: #88a5b1;
+}
+
+
+/* selected link */
+
+.green:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/* unvisited link */
+
+.green:visited {
+    color: #FFFFFF;
+}
+
+
+/* visited link */
+
+.green:hover {
+    color: #bbff52;
+}
+
+
+/* mouse over link */
+
+.green:active {
+    color: #88a5b1;
+}
+
+
+/* selected link */
+
+.greenAlt:link {
+    color: #bbff52;
+    text-decoration: none;
+}
+
+
+/* unvisited link */
+
+.greenAlt:visited {
+    color: #bbff52;
+}
+
+
+/* visited link */
+
+.greenAlt:hover {
+    color: #d7ff9a;
+}
+
+
+/* mouse over link */
+
+.greenAlt:active {
+    color: #88a5b1;
+}
+
+
+/* selected link */
+
+.purple:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/* unvisited link */
+
+.purple:visited {
+    color: #FFFFFF;
+}
+
+
+/* visited link */
+
+.purple:hover {
+    color: #9652ff;
+}
+
+
+/* mouse over link */
+
+.purple:active {
+    color: #88a5b1;
+}
+
+
+/* selected link */
+
+.animation {
+    -webkit-transition: all 0.3s ease-out;
+    /* Chrome 1-25, Safari 3.2+ */
+    -moz-transition: all 0.3s ease-out;
+    /* Firefox 4-15 */
+    -o-transition: all 0.3s ease-out;
+    /* Opera 10.50–12.00 */
+    transition: all 0.3s ease-out;
+    /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background: #00597f url(../images/SanFranHill.jpg) repeat-y fixed top;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-weight: 300;
+    color: #FFF;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    right: 0px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 200;
+    padding-bottom: 20px;
+    font-family: '微软雅黑';
+}
+
+p {
+    line-height: 38px;
+    padding-bottom: 50px;
+}
+
+.animate {
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+
+/* Navigation Bar */
+
+nav {
+    position: fixed;
+    left: 0px;
+    z-index: 2;
+    background-color: rgba(0, 89, 127, 0.50);
+    width: 350px;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.10);
+}
+
+nav ul {
+    padding-left: 45px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav li {
+    margin-top: 20px;
+}
+
+li.Past {
+    background: url(../images/past.png) no-repeat 3px 0px;
+    padding-left: 40px;
+}
+
+li.Hobbies {
+    background: url(../images/hobbies.png) no-repeat 0px 2px;
+    padding-left: 40px;
+}
+
+nav h1 {
+    background-color: rgba(255, 255, 255, 0.10);
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 400;
+    width: 260px;
+    padding: 25px 45px 25px 45px;
+    margin-top: 25px;
+}
+
+nav h1:hover {
+    background-color: rgba(255, 255, 255, 0.20);
+}
+
+nav h2 {
+    background-color: rgba(0, 0, 0, 0.20);
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 400;
+    width: 260px;
+    padding: 25px 45px 25px 45px;
+    margin-top: 30px;
+}
+
+nav h2:hover {
+    background-color: rgba(0, 0, 0, 0.30);
+}
+
+#AboutBar {
+    margin-left: -3px;
+    border-right: 3px solid #bbff52;
+}
+
+#ProjectBar {
+    margin-left: -3px;
+    border-right: 3px solid #9652ff;
+}
+
+#BlogBar {
+    margin-left: -3px;
+    border-right: 3px solid #ebebeb;
+    position: absolute;
+    bottom: 0px;
+    opacity: 0.5;
+}
+
+#navGradient {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    width: 350px;
+    height: 100%;
+    opacity: 0.15;
+    background-image: -ms-linear-gradient(right, #FFFFFF 0%, #000000 100%);
+    background-image: -moz-linear-gradient(right, #FFFFFF 0%, #000000 100%);
+    background-image: -o-linear-gradient(right, #FFFFFF 0%, #000000 100%);
+    background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #FFFFFF), color-stop(1, #000000));
+    background-image: -webkit-linear-gradient(right, #FFFFFF 0%, #000000 100%);
+    background-image: linear-gradient(to left, #FFFFFF 0%, #000000 100%);
+}
+
+
+/* --------------------------------------------------------- */
+
+
+/* Social & Contact */
+
+#social {
+    position: fixed;
+    top: 0px;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 40px;
+    width: 70%;
+    z-index: 2;
+    background: url(../images/SanFranHill.jpg) no-repeat fixed top;
+    opacity: 0.9;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
+
+#social li {
+    display: inline;
+    opacity: 0.5;
+}
+
+#social li:first-child {
+    border-right: 1px solid #FFF;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+#social img {
+    display: inline;
+    margin: -5px 0px 0px 7px;
+    float: right;
+    opacity: 0.5;
+}
+
+#social img:hover {
+    opacity: 1;
+}
+
+
+/* --------------------------------------------------------- */
+
+
+/* Content */
+
+.content {
+    position: relative;
+    z-index: 1;
+    margin-top: 100px;
+    font-size: 30px;
+    padding: 175px 50px 50px 50px;
+    margin-left: 50px;
+}
+
+.line {
+    padding-bottom: 35px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.align_fix {
+    margin-top: -40px;
+}
+
+
+/* --------------------------------------------------------- */
+
+
+/* Intro */
+
+.intro h1 {
+    margin-top: -25px;
+}
+
+.intro h1 span {
+    font-weight: 400;
+}
+
+.intro img {
+    position: absolute;
+    opacity: 0.3;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+}
+
+.boeing {
+    left: 100px;
+    margin-top: 25px;
+}
+
+.intufit {
+    right: 100px;
+    margin-top: 40px;
+}
+
+.totalfitness {
+    left: 40%;
+    margin-top: 35px;
+}
+
+.imge {
+    left: 140px;
+    margin-top: 135px;
+}
+
+.spinnakr {
+    right: 110px;
+    margin-top: 130px;
+}
+
+.htr {
+    left: 44%;
+    margin-top: 135px;
+}
+
+.intro img:hover {
+    opacity: 1;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+}
+
+
+/* --------------------------------------------------------- */
+
+
+/* Blog */
+
+.blog h1 {
+    margin-top: -150px;
+}
+
+
+/* --------------------------------------------------------- */
+
+
+/* Hobbies */
+
+.hobbies li {
+    margin-bottom: 40px;
+    padding: 5px 0px 5px 70px;
+}
+
+.hobbies li.world {
+    background: url(../images/World.png) no-repeat 0px 3px;
+}
+
+.hobbies li.gym {
+    background: url(../images/Gym.png) no-repeat 7px 4px;
+}
+
+.hobbies li.coffee {
+    background: url(../images/Coffee.png) no-repeat 2px 0px;
+}
+
+.hobbies li.xbox {
+    background: url(../images/Xbox.png) no-repeat 0px 7px;
+}
+
+
+/* --------------------------------------------------------- */
+
+
+/* Gym App 2 */
+
+.gymApp_2 img {
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+
+/* --------------------------------------------------------- */
+
+
+/* Web */
+
+.web img {
+    margin-top: 15px;
+    position: absolute;
+    z-index: 3;
+}
+
+.web2 img {
+    margin-top: 15px;
+}
+
+
+/* ------------------------------- */
+
+.swiper-container,
+.swiper-container1,
+.swiper-container2,
+.swiper-container3,
+.swiper-container4,
+.swiper-container5 {
+    width: 900px;
+    height: 600px;
+}
+
+.swiper-container img,
+.swiper-container1 img,
+.swiper-container2 img,
+.swiper-container3 img,
+.swiper-container4 img,
+.swiper-container5 img {
+	max-width: 900px;
+    max-height: 600px;
+}

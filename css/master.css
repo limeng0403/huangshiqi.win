@@ -1,0 +1,29 @@
+/*殷琦*/
+/***********base**************/
+img,button{ border:none; vertical-align:middle;}
+*html{background-image:url(about:blank); background-attachment:fixed;}
+ul,ol,li{ list-style:none;}
+body,h1,h2,h3,h4,h5,h6,div,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}
+body,button,input,select,textarea,td,th{font:12px/1.2 "microsoft yahei",\5b8b\4f53,Arial, Helvetica, sans-serif;}
+input,textarea,button,select{ outline:none;vertical-align:middle;font-weight:normal; height:22px; line-height:22px;}
+textarea{ height:80px;}
+input:focus,textarea:focus{ outline:none;}
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}/*html5 tag*/
+img,p,table,td,th,body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ol,ul,li,label{vertical-align:middle;}
+table{ border-collapse:collapse; border-spacing:0;}
+a{ text-decoration:none;}
+a:visited{ text-decoration:none;}
+a:hover{ text-decoration:none;outline:none;}
+a:active, a:focus {outline:none;}
+.clear{display:block;float:none;clear:both;overflow:hidden;visibility:hidden;width:0;height:0;background:none;border:0;font-size:0}
+.c{*zoom:1;}.c:after{ clear:both; display:block;content:"."; height:0; visibility:hidden}/*闭合浮动*/
+.right{float: right;}
+.left{float: left;}
+.hide{display: none;}
+.abso{position: absolute;}
+.center{text-align: center;}
+.fixed{ position: fixed;}
+.disblock{display:inline-block;vertical-align: middle;}
+/*3-17*/
+.tx{background: url(../images/tx.jpg) no-repeat;width: 950px;height: 170px;display: block;position: relative;}
+.txbtn{background: url(../images/txbtn.jpg) no-repeat;width: 132px;height: 39px;display: block;top: 76px;right: 82px;}
