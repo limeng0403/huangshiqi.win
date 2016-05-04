@@ -19,22 +19,20 @@
     <header>
         <section class="title"><span class="name_cn">黄诗琦</span><span class="name_en">Huang Shiqi</span></section>
         <section class="contract"><span class="phone">(+86)18552040450</span>|<span class="email">602312121@qq.com</span></section>
-        <a href="#nav" class="more"><img src="images/m/more.svg"></a>
+        <a href="javascript:;" class="more nav_animate_remove" onclick="moreEvent()"><img src="images/m/more.svg"></a>
     </header>
     <nav id="nav">
-        <a href="#element1" class="title1">ABOUT ME</a>
         <ul>
+            <li><a href="#element1">ABOUT ME</a></li>
             <li><a href="#element2">个人资料</a></li>
             <li><a href="#element3">兴趣爱好</a></li>
-        </ul>
-        <ul>
             <li><a href="#element4">海报设计</a></li>
             <li><a href="#element5">书籍封面设计</a></li>
             <li><a href="#element6">网页设计</a></li>
             <li><a href="#element7">APP图标设计</a></li>
             <li><a href="#element8">卡通人物设计</a></li>
+            <li><a href="#element9">END</a></li>
         </ul>
-        <a href="#element9" class="title1">END</a>
     </nav>
     <article>
         <section id="element1">
@@ -235,8 +233,18 @@
             prevButton: '.swiper-button-prev'
         });
         $('nav').css('top', $('header').height() + 10 + 'px');
-        $('img').css('max-height', $('body').height() - 50 + 'px')
+        $('img').css('max-height', $('body').height() - 50 + 'px');
     });
+
+    function moreEvent() {
+        if ($('.more').hasClass('nav_animate_remove')) {
+            $('.more').removeClass('nav_animate_remove');
+            $('.more').addClass('nav_animate');
+        }else{
+        	$('.more').addClass('nav_animate_remove');
+            $('.more').removeClass('nav_animate');
+        }
+    }
     window.location.href = "#element1";
     </script>
 </body>
