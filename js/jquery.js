@@ -58,7 +58,9 @@ $(document).ready(function() {
  
 });
 
+
 /* blurr */
+/*
 var content = document.querySelector('.content');
 var duplicate = content.cloneNode(true);
 var contentBlurred = document.createElement('div');
@@ -80,3 +82,4 @@ contentWrapper.addEventListener('scroll',function(){
 
 // offset to demo blurring
 contentWrapper.scrollTop = 140;
+*/
